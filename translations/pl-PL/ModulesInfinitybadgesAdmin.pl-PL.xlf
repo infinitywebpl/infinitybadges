@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="modules/infinitybadges" source-language="en-US" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="ib-product-badges">
+        <source>Product badges</source>
+        <target>Etykiety produktów</target>
+      </trans-unit>
+      <trans-unit id="ib-module-description">
+        <source>Automatic product labels based on product features, categories, manufacturers and price, displayed as product flags.</source>
+        <target>Automatyczne etykiety produktów na podstawie cech, kategorii, producentów i ceny, wyświetlane jako flagi produktu.</target>
+      </trans-unit>
+      <trans-unit id="ib-confirm-uninstall">
+        <source>All badge rules and styles will be deleted. Continue?</source>
+        <target>Wszystkie reguły i style etykiet zostaną usunięte. Kontynuować?</target>
+      </trans-unit>
+      <trans-unit id="ib-badge-styles">
+        <source>Badge styles</source>
+        <target>Style etykiet</target>
+      </trans-unit>
+      <trans-unit id="ib-badge-preview">
+        <source>Badge preview</source>
+        <target>Podgląd etykiet</target>
+      </trans-unit>
+      <trans-unit id="ib-badge-settings">
+        <source>Badge settings</source>
+        <target>Ustawienia etykiet</target>
+      </trans-unit>
+      <trans-unit id="ib-nav-rules">
+        <source>Rules</source>
+        <target>Reguły</target>
+      </trans-unit>
+      <trans-unit id="ib-nav-styles">
+        <source>Styles</source>
+        <target>Style</target>
+      </trans-unit>
+      <trans-unit id="ib-nav-preview">
+        <source>Preview</source>
+        <target>Podgląd</target>
+      </trans-unit>
+      <trans-unit id="ib-nav-settings">
+        <source>Settings</source>
+        <target>Ustawienia</target>
+      </trans-unit>
+      <trans-unit id="ib-placeholder">
+        <source>This section will be available in the next version of the module.</source>
+        <target>Ta sekcja będzie dostępna w kolejnej wersji modułu.</target>
+      </trans-unit>
+      <trans-unit id="ib-459c26d25a39">
+        <source>%name% (copy)</source>
+        <target>%name% (kopia)</target>
+      </trans-unit>
+      <trans-unit id="ib-0a52ac357137">
+        <source>Unknown badge type.</source>
+        <target>Nieznany typ etykiety.</target>
+      </trans-unit>
+      <trans-unit id="ib-594d3588d106">
+        <source>Unknown text mode.</source>
+        <target>Nieznany tryb tekstu.</target>
+      </trans-unit>
+      <trans-unit id="ib-4ee315dc3297">
+        <source>Select a feature for a feature badge.</source>
+        <target>Wybierz cechę dla etykiety z cechy.</target>
+      </trans-unit>
+      <trans-unit id="ib-c527fb131f1f">
+        <source>The selected feature does not exist.</source>
+        <target>Wybrana cecha nie istnieje.</target>
+      </trans-unit>
+      <trans-unit id="ib-8c2fcecaea17">
+        <source>Enter the badge text in the default language.</source>
+        <target>Wpisz tekst etykiety w języku domyślnym.</target>
+      </trans-unit>
+      <trans-unit id="ib-eeaaf649b2bd">
+        <source>The start date cannot be later than the end date.</source>
+        <target>Data początkowa nie może być późniejsza niż końcowa.</target>
+      </trans-unit>
+      <trans-unit id="ib-caa46d98b2fa">
+        <source>Select at least one device.</source>
+        <target>Wybierz co najmniej jedno urządzenie.</target>
+      </trans-unit>
+      <trans-unit id="ib-a7a8098cd76a">
+        <source>The selected style does not exist.</source>
+        <target>Wybrany styl nie istnieje.</target>
+      </trans-unit>
+      <trans-unit id="ib-ac90bbf2d065">
+        <source>The background color must be in #RRGGBB format.</source>
+        <target>Kolor tła musi mieć format #RRGGBB.</target>
+      </trans-unit>
+      <trans-unit id="ib-127cec079df2">
+        <source>The text color must be in #RRGGBB format.</source>
+        <target>Kolor tekstu musi mieć format #RRGGBB.</target>
+      </trans-unit>
+      <trans-unit id="ib-ce60478a5f3c">
+        <source>Invalid font weight.</source>
+        <target>Nieprawidłowa grubość czcionki.</target>
+      </trans-unit>
+      <trans-unit id="ib-afed005d300f">
+        <source>Font size must be between 8 and 40 px.</source>
+        <target>Wielkość czcionki musi mieścić się w zakresie 8–40 px.</target>
+      </trans-unit>
+      <trans-unit id="ib-c10c0538b591">
+        <source>Spacing values must be between 0 and 40 px.</source>
+        <target>Odstępy muszą mieścić się w zakresie 0–40 px.</target>
+      </trans-unit>
+      <trans-unit id="ib-6df4eb81de34">
+        <source>Border radius must be between 0 and 50 px.</source>
+        <target>Zaokrąglenie musi mieścić się w zakresie 0–50 px.</target>
+      </trans-unit>
+      <trans-unit id="ib-5ff5b4adbe65">
+        <source>Invalid criteria data.</source>
+        <target>Nieprawidłowe dane kryteriów.</target>
+      </trans-unit>
+      <trans-unit id="ib-74975d46ff2c">
+        <source>Too many criteria in a group (maximum %max%).</source>
+        <target>Za dużo kryteriów w grupie (maksymalnie %max%).</target>
+      </trans-unit>
+      <trans-unit id="ib-e2a0c6e050eb">
+        <source>Too many groups (maximum %max%).</source>
+        <target>Za dużo grup (maksymalnie %max%).</target>
+      </trans-unit>
+      <trans-unit id="ib-b126a7c62987">
+        <source>Unknown criterion type.</source>
+        <target>Nieznany rodzaj kryterium.</target>
+      </trans-unit>
+      <trans-unit id="ib-49e5924f1c5c">
+        <source>Unknown criterion mode.</source>
+        <target>Nieznany tryb kryterium.</target>
+      </trans-unit>
+      <trans-unit id="ib-beec34496a2f">
+        <source>Only exclusion criteria are allowed in "Always exclude".</source>
+        <target>W sekcji „Zawsze wykluczaj” dozwolone są tylko kryteria wykluczające.</target>
+      </trans-unit>
+      <trans-unit id="ib-72979def4d58">
+        <source>Select at least one category.</source>
+        <target>Wybierz co najmniej jedną kategorię.</target>
+      </trans-unit>
+      <trans-unit id="ib-c0399771e0b9">
+        <source>Select at least one manufacturer.</source>
+        <target>Wybierz co najmniej jednego producenta.</target>
+      </trans-unit>
+      <trans-unit id="ib-94cd85dc6a2e">
+        <source>Select a feature.</source>
+        <target>Wybierz cechę.</target>
+      </trans-unit>
+      <trans-unit id="ib-8b4f0ded7fcc">
+        <source>Invalid price value.</source>
+        <target>Nieprawidłowa wartość ceny.</target>
+      </trans-unit>
+      <trans-unit id="ib-8eef4653ddfa">
+        <source>Enter at least one price limit.</source>
+        <target>Podaj co najmniej jedną granicę ceny.</target>
+      </trans-unit>
+      <trans-unit id="ib-f30b5f70ed29">
+        <source>Price limits cannot be negative.</source>
+        <target>Granice ceny nie mogą być ujemne.</target>
+      </trans-unit>
+      <trans-unit id="ib-5bde60f5acbb">
+        <source>The minimum price cannot be greater than the maximum price.</source>
+        <target>Cena minimalna nie może być większa niż maksymalna.</target>
+      </trans-unit>
+      <trans-unit id="ib-8d183b2efa99">
+        <source>Enter at least one product ID or reference.</source>
+        <target>Podaj co najmniej jedno ID lub indeks produktu.</target>
+      </trans-unit>
+      <trans-unit id="ib-adbe655700a8">
+        <source>Categories not found: %list%.</source>
+        <target>Nie znaleziono kategorii: %list%.</target>
+      </trans-unit>
+      <trans-unit id="ib-90c0cec40d7f">
+        <source>Manufacturers not found: %list%.</source>
+        <target>Nie znaleziono producentów: %list%.</target>
+      </trans-unit>
+      <trans-unit id="ib-56a1bec2b2a0">
+        <source>Values not belonging to the selected feature: %list%.</source>
+        <target>Wartości spoza wybranej cechy: %list%.</target>
+      </trans-unit>
+      <trans-unit id="ib-7ae24628ad61">
+        <source>Products not found: %list%.</source>
+        <target>Nie znaleziono produktów: %list%.</target>
+      </trans-unit>
+      <trans-unit id="ib-d3b206d196cd">
+        <source>Delete selected</source>
+        <target>Usuń zaznaczone</target>
+      </trans-unit>
+      <trans-unit id="ib-986b57edd954">
+        <source>Delete selected rules?</source>
+        <target>Usunąć zaznaczone reguły?</target>
+      </trans-unit>
+      <trans-unit id="ib-b718adec73e0">
+        <source>ID</source>
+        <target>ID</target>
+      </trans-unit>
+      <trans-unit id="ib-49ee3087348e">
+        <source>Name</source>
+        <target>Nazwa</target>
+      </trans-unit>
+      <trans-unit id="ib-a1fa27779242">
+        <source>Type</source>
+        <target>Typ</target>
+      </trans-unit>
+      <trans-unit id="ib-e7ffe0d240d0">
+        <source>From feature</source>
+        <target>Z cechy</target>
+      </trans-unit>
+      <trans-unit id="ib-d3ceddbed8e0">
+        <source>Static text</source>
+        <target>Tekst stały</target>
+      </trans-unit>
+      <trans-unit id="ib-21021ea0e52b">
+        <source>Feature</source>
+        <target>Cecha</target>
+      </trans-unit>
+      <trans-unit id="ib-a37ede293936">
+        <source>Groups</source>
+        <target>Grupy</target>
+      </trans-unit>
+      <trans-unit id="ib-ae284f900f9d">
+        <source>Style</source>
+        <target>Styl</target>
+      </trans-unit>
+      <trans-unit id="ib-502996d97903">
+        <source>Priority</source>
+        <target>Priorytet</target>
+      </trans-unit>
+      <trans-unit id="ib-eb902cf204f3">
+        <source>Valid from</source>
+        <target>Ważna od</target>
+      </trans-unit>
+      <trans-unit id="ib-d878137401ae">
+        <source>Valid to</source>
+        <target>Ważna do</target>
+      </trans-unit>
+      <trans-unit id="ib-52f5e0bc3859">
+        <source>Position</source>
+        <target>Pozycja</target>
+      </trans-unit>
+      <trans-unit id="ib-ec53a8c4f07b">
+        <source>Status</source>
+        <target>Status</target>
+      </trans-unit>
+      <trans-unit id="ib-12d97e7a8792">
+        <source>Add new rule</source>
+        <target>Dodaj regułę</target>
+      </trans-unit>
+      <trans-unit id="ib-ed75712b0eb1">
+        <source>Duplicate</source>
+        <target>Duplikuj</target>
+      </trans-unit>
+      <trans-unit id="ib-5d082aa3f02c">
+        <source>The rule criteria could not be saved. The rule has been deactivated.</source>
+        <target>Nie udało się zapisać kryteriów reguły. Reguła została wyłączona.</target>
+      </trans-unit>
+      <trans-unit id="ib-1466a83c2f1e">
+        <source>You do not have permission to add rules.</source>
+        <target>Nie masz uprawnień do dodawania reguł.</target>
+      </trans-unit>
+      <trans-unit id="ib-4cdfdb3eccfd">
+        <source>The rule could not be duplicated.</source>
+        <target>Nie udało się zduplikować reguły.</target>
+      </trans-unit>
+      <trans-unit id="ib-454a5c95c970">
+        <source>Badge</source>
+        <target>Etykieta</target>
+      </trans-unit>
+      <trans-unit id="ib-501125bbfd49">
+        <source>Internal name, not shown to customers.</source>
+        <target>Nazwa wewnętrzna, niewidoczna dla klientów.</target>
+      </trans-unit>
+      <trans-unit id="ib-4d3d769b812b">
+        <source>Active</source>
+        <target>Aktywna</target>
+      </trans-unit>
+      <trans-unit id="ib-93cba07454f0">
+        <source>Yes</source>
+        <target>Tak</target>
+      </trans-unit>
+      <trans-unit id="ib-bafd7322c6e9">
+        <source>No</source>
+        <target>Nie</target>
+      </trans-unit>
+      <trans-unit id="ib-8db2119c93ba">
+        <source>Badge type</source>
+        <target>Typ etykiety</target>
+      </trans-unit>
+      <trans-unit id="ib-db9e35ce53a7">
+        <source>-- Select a feature --</source>
+        <target>-- Wybierz cechę --</target>
+      </trans-unit>
+      <trans-unit id="ib-2c8b06d2ac08">
+        <source>Text mode</source>
+        <target>Tryb tekstu</target>
+      </trans-unit>
+      <trans-unit id="ib-6c3205f23591">
+        <source>Feature value</source>
+        <target>Wartość cechy</target>
+      </trans-unit>
+      <trans-unit id="ib-3e63f8ce75c7">
+        <source>Feature name</source>
+        <target>Nazwa cechy</target>
+      </trans-unit>
+      <trans-unit id="ib-bf0cc61c8c66">
+        <source>Custom text</source>
+        <target>Własny tekst</target>
+      </trans-unit>
+      <trans-unit id="ib-939808c1c391">
+        <source>"Feature name" shows e.g. "Motion sensor" for the value "Yes".</source>
+        <target>„Nazwa cechy” pokazuje np. „Czujnik ruchu” dla wartości „Tak”.</target>
+      </trans-unit>
+      <trans-unit id="ib-01b102b2d81e">
+        <source>Hidden values</source>
+        <target>Ukrywane wartości</target>
+      </trans-unit>
+      <trans-unit id="ib-801e2b55a703">
+        <source>One value per line, case-insensitive (e.g. No). These values are not shown; without other values there is no badge.</source>
+        <target>Jedna wartość w linii, bez rozróżniania wielkości liter (np. Nie). Te wartości nie są pokazywane; bez innych wartości etykiety nie ma.</target>
+      </trans-unit>
+      <trans-unit id="ib-716de874a0d7">
+        <source>Prefix</source>
+        <target>Prefiks</target>
+      </trans-unit>
+      <trans-unit id="ib-5a55854dbbe8">
+        <source>E.g. "IP " or "Ø ". Not added when the value already starts with it.</source>
+        <target>Np. „IP ” albo „Ø ”. Nie jest dodawany, gdy wartość już się od niego zaczyna.</target>
+      </trans-unit>
+      <trans-unit id="ib-56e6ddd1cb6c">
+        <source>Suffix</source>
+        <target>Sufiks</target>
+      </trans-unit>
+      <trans-unit id="ib-f3c34405c5c6">
+        <source>E.g. " cm". Not added when the value already ends with it.</source>
+        <target>Np. „ cm”. Nie jest dodawany, gdy wartość już się nim kończy.</target>
+      </trans-unit>
+      <trans-unit id="ib-9dffbf69ffba">
+        <source>Text</source>
+        <target>Tekst</target>
+      </trans-unit>
+      <trans-unit id="ib-ad3ebc5c5b81">
+        <source>Badge text. Missing translations fall back to the default language.</source>
+        <target>Tekst etykiety. Brakujące tłumaczenia zastępuje język domyślny.</target>
+      </trans-unit>
+      <trans-unit id="ib-c9cc8cce247e">
+        <source>Save</source>
+        <target>Zapisz</target>
+      </trans-unit>
+      <trans-unit id="ib-9ea67be453ea">
+        <source>Save and stay</source>
+        <target>Zapisz i zostań</target>
+      </trans-unit>
+      <trans-unit id="ib-2e739b2175e8">
+        <source>Criteria</source>
+        <target>Kryteria</target>
+      </trans-unit>
+      <trans-unit id="ib-b9987a246a53">
+        <source>Display</source>
+        <target>Wyświetlanie</target>
+      </trans-unit>
+      <trans-unit id="ib-59e73ce8e370">
+        <source>Higher priority badges are shown first and win when the limit is reached.</source>
+        <target>Etykiety o wyższym priorytecie są pokazywane jako pierwsze i wygrywają po osiągnięciu limitu.</target>
+      </trans-unit>
+      <trans-unit id="ib-d948cddb616e">
+        <source>Base style</source>
+        <target>Styl bazowy</target>
+      </trans-unit>
+      <trans-unit id="ib-c03ca67dda32">
+        <source>Devices</source>
+        <target>Urządzenia</target>
+      </trans-unit>
+      <trans-unit id="ib-2310408a6338">
+        <source>Desktop</source>
+        <target>Desktop</target>
+      </trans-unit>
+      <trans-unit id="ib-87d17f4624a5">
+        <source>Mobile</source>
+        <target>Mobile</target>
+      </trans-unit>
+      <trans-unit id="ib-3d59ca6c6e94">
+        <source>Leave empty for no limit.</source>
+        <target>Zostaw puste, aby nie ograniczać.</target>
+      </trans-unit>
+      <trans-unit id="ib-3adbdb3ac060">
+        <source>Category</source>
+        <target>Kategoria</target>
+      </trans-unit>
+      <trans-unit id="ib-c0bd7654d5b2">
+        <source>Manufacturer</source>
+        <target>Producent</target>
+      </trans-unit>
+      <trans-unit id="ib-3601146c4e94">
+        <source>Price</source>
+        <target>Cena</target>
+      </trans-unit>
+      <trans-unit id="ib-deb10517653c">
+        <source>Product</source>
+        <target>Produkt</target>
+      </trans-unit>
+      <trans-unit id="ib-f4d72a64acd8">
+        <source>Include</source>
+        <target>Uwzględnij</target>
+      </trans-unit>
+      <trans-unit id="ib-843f2812f595">
+        <source>Exclude</source>
+        <target>Wyklucz</target>
+      </trans-unit>
+      <trans-unit id="ib-e962ba610008">
+        <source>Always exclude</source>
+        <target>Zawsze wykluczaj</target>
+      </trans-unit>
+      <trans-unit id="ib-426e57d08302">
+        <source>Products matching any of these criteria never get the badge, whatever the groups.</source>
+        <target>Produkty pasujące do któregokolwiek z tych kryteriów nigdy nie dostaną etykiety, niezależnie od grup.</target>
+      </trans-unit>
+      <trans-unit id="ib-4f1ccfd600b1">
+        <source>The badge is shown when any group matches. Within a group all criteria must match; values within one criterion are alternatives.</source>
+        <target>Etykieta pojawia się, gdy pasuje dowolna grupa. W grupie muszą pasować wszystkie kryteria; wartości w jednym kryterium są alternatywą (lub).</target>
+      </trans-unit>
+      <trans-unit id="ib-bd57b4b18a7e">
+        <source>No groups: the badge applies to all products except excluded ones.</source>
+        <target>Brak grup: etykieta dotyczy wszystkich produktów poza wykluczonymi.</target>
+      </trans-unit>
+      <trans-unit id="ib-9b1d691fad6a">
+        <source>Group %n%</source>
+        <target>Grupa %n%</target>
+      </trans-unit>
+      <trans-unit id="ib-9851adcbf857">
+        <source>Add group</source>
+        <target>Dodaj grupę</target>
+      </trans-unit>
+      <trans-unit id="ib-c696265d6b95">
+        <source>Add criterion</source>
+        <target>Dodaj kryterium</target>
+      </trans-unit>
+      <trans-unit id="ib-ff9c78534b68">
+        <source>Add exclusion</source>
+        <target>Dodaj wykluczenie</target>
+      </trans-unit>
+      <trans-unit id="ib-748010ad83c0">
+        <source>Duplicate group</source>
+        <target>Duplikuj grupę</target>
+      </trans-unit>
+      <trans-unit id="ib-53fc0cb1e646">
+        <source>Remove group</source>
+        <target>Usuń grupę</target>
+      </trans-unit>
+      <trans-unit id="ib-1063e38cb53d">
+        <source>Remove</source>
+        <target>Usuń</target>
+      </trans-unit>
+      <trans-unit id="ib-1d00e7dce692">
+        <source>OR</source>
+        <target>LUB</target>
+      </trans-unit>
+      <trans-unit id="ib-558ffc8f5770">
+        <source>AND</source>
+        <target>ORAZ</target>
+      </trans-unit>
+      <trans-unit id="ib-2a37324bb4c3">
+        <source>Search...</source>
+        <target>Szukaj...</target>
+      </trans-unit>
+      <trans-unit id="ib-91b442d385b5">
+        <source>Selected</source>
+        <target>Wybrane</target>
+      </trans-unit>
+      <trans-unit id="ib-8dcd4486b532">
+        <source>Nothing selected</source>
+        <target>Nic nie wybrano</target>
+      </trans-unit>
+      <trans-unit id="ib-9e87ca12dbf2">
+        <source>Too many results, refine the search.</source>
+        <target>Za dużo wyników, zawęź wyszukiwanie.</target>
+      </trans-unit>
+      <trans-unit id="ib-871e9173eb82">
+        <source>Include subcategories</source>
+        <target>Z podkategoriami</target>
+      </trans-unit>
+      <trans-unit id="ib-5354ac18334e">
+        <source>No value selected means any value of the feature.</source>
+        <target>Brak zaznaczenia oznacza dowolną wartość cechy.</target>
+      </trans-unit>
+      <trans-unit id="ib-8524de963f07">
+        <source>Loading...</source>
+        <target>Wczytywanie...</target>
+      </trans-unit>
+      <trans-unit id="ib-52a57f2d7955">
+        <source>Could not load the values.</source>
+        <target>Nie udało się wczytać wartości.</target>
+      </trans-unit>
+      <trans-unit id="ib-5da618e8e4b8">
+        <source>From</source>
+        <target>Od</target>
+      </trans-unit>
+      <trans-unit id="ib-e12167aa0a76">
+        <source>To</source>
+        <target>Do</target>
+      </trans-unit>
+      <trans-unit id="ib-88c5bba14142">
+        <source>Base price tax excluded, without specific prices and discounts.</source>
+        <target>Cena bazowa netto, bez cen specyficznych i rabatów.</target>
+      </trans-unit>
+      <trans-unit id="ib-4525672c9f35">
+        <source>Product IDs or references, separated by commas or new lines.</source>
+        <target>ID lub indeksy produktów, oddzielone przecinkami albo nowymi liniami.</target>
+      </trans-unit>
+      <trans-unit id="ib-788179fd9efe">
+        <source>Always exclude, criterion %n%: %message%</source>
+        <target>Zawsze wykluczaj, kryterium %n%: %message%</target>
+      </trans-unit>
+      <trans-unit id="ib-30af10caff88">
+        <source>Group %group%, criterion %n%: %message%</source>
+        <target>Grupa %group%, kryterium %n%: %message%</target>
+      </trans-unit>
+      <trans-unit id="ib-8c1801c4edf5">
+        <source>Group %group%: %message%</source>
+        <target>Grupa %group%: %message%</target>
+      </trans-unit>
+      <trans-unit id="ib-0db377921f4c">
+        <source>General</source>
+        <target>Ogólne</target>
+      </trans-unit>
+      <trans-unit id="ib-c2e058ef0cd3">
+        <source>Show badges on the front office</source>
+        <target>Wyświetlanie etykiet na froncie</target>
+      </trans-unit>
+      <trans-unit id="ib-5415ae24d507">
+        <source>When disabled, the module does not change anything for customers.</source>
+        <target>Po wyłączeniu moduł niczego nie zmienia dla klientów.</target>
+      </trans-unit>
+      <trans-unit id="ib-49d8a171493d">
+        <source>Badge position</source>
+        <target>Pozycja etykiet</target>
+      </trans-unit>
+      <trans-unit id="ib-72a5c8cfdba2">
+        <source>Relative to system flags such as New or On sale.</source>
+        <target>Względem flag systemowych, takich jak Nowość czy Promocja.</target>
+      </trans-unit>
+      <trans-unit id="ib-567d89fbc4da">
+        <source>After system flags</source>
+        <target>Po flagach systemowych</target>
+      </trans-unit>
+      <trans-unit id="ib-ead24214f6ce">
+        <source>Before system flags</source>
+        <target>Przed flagami systemowymi</target>
+      </trans-unit>
+      <trans-unit id="ib-5df2cb3ef1c4">
+        <source>Mobile breakpoint</source>
+        <target>Próg mobile</target>
+      </trans-unit>
+      <trans-unit id="ib-41f8772b444b">
+        <source>Maximum screen width treated as mobile.</source>
+        <target>Maksymalna szerokość ekranu traktowana jako mobile.</target>
+      </trans-unit>
+      <trans-unit id="ib-ec3028a12402">
+        <source>Debug mode</source>
+        <target>Tryb debug</target>
+      </trans-unit>
+      <trans-unit id="ib-0254ccce56b9">
+        <source>Badge limits</source>
+        <target>Limity etykiet</target>
+      </trans-unit>
+      <trans-unit id="ib-a26239e3e697">
+        <source>Maximum number of visible badges per product (0 = no badges). Badges with higher priority are kept.</source>
+        <target>Maksymalna liczba widocznych etykiet na produkt (0 = brak etykiet). Zostają etykiety o wyższym priorytecie.</target>
+      </trans-unit>
+      <trans-unit id="ib-ece2f6ba3934">
+        <source>The mobile breakpoint must be between 320 and 2000 px.</source>
+        <target>Próg mobile musi mieścić się w zakresie 320–2000 px.</target>
+      </trans-unit>
+      <trans-unit id="ib-3cbef8be94a8">
+        <source>Invalid badge position.</source>
+        <target>Nieprawidłowa pozycja etykiet.</target>
+      </trans-unit>
+      <trans-unit id="ib-0a7bd6fb774a">
+        <source>Limits must be between 0 and %max%.</source>
+        <target>Limity muszą mieścić się w zakresie 0–%max%.</target>
+      </trans-unit>
+      <trans-unit id="ib-9e5c949c28bf">
+        <source>Rule inactive.</source>
+        <target>Reguła nieaktywna.</target>
+      </trans-unit>
+      <trans-unit id="ib-082225f08bd0">
+        <source>Outside the validity dates.</source>
+        <target>Poza okresem obowiązywania.</target>
+      </trans-unit>
+      <trans-unit id="ib-d318c4980812">
+        <source>Empty badge text.</source>
+        <target>Pusty tekst etykiety.</target>
+      </trans-unit>
+      <trans-unit id="ib-bbbe68adbdd5">
+        <source>Product does not have this feature.</source>
+        <target>Produkt nie ma tej cechy.</target>
+      </trans-unit>
+      <trans-unit id="ib-85ce84acbbce">
+        <source>All values of the feature are hidden or empty.</source>
+        <target>Wszystkie wartości cechy są ukryte albo puste.</target>
+      </trans-unit>
+      <trans-unit id="ib-d5858734c019">
+        <source>Group %group%: excluded by criterion %n% (%kind%).</source>
+        <target>Grupa %group%: wykluczony przez kryterium %n% (%kind%).</target>
+      </trans-unit>
+      <trans-unit id="ib-a42ca8b9de2b">
+        <source>Group %group%: criterion %n% (%kind%) does not match.</source>
+        <target>Grupa %group%: kryterium %n% (%kind%) nie pasuje.</target>
+      </trans-unit>
+      <trans-unit id="ib-77d33d5d5295">
+        <source>Excluded by "Always exclude", criterion %n% (%kind%).</source>
+        <target>Wykluczony przez „Zawsze wykluczaj”, kryterium %n% (%kind%).</target>
+      </trans-unit>
+      <trans-unit id="ib-2bfe4eb479f7">
+        <source>No groups - applies to all products.</source>
+        <target>Brak grup – dotyczy wszystkich produktów.</target>
+      </trans-unit>
+      <trans-unit id="ib-f13465535fd5">
+        <source>Matched by group %group%.</source>
+        <target>Pasuje grupa %group%.</target>
+      </trans-unit>
+      <trans-unit id="ib-5c91bd91936c">
+        <source>Duplicate of a higher priority badge.</source>
+        <target>Duplikat etykiety o wyższym priorytecie.</target>
+      </trans-unit>
+      <trans-unit id="ib-133fd6e5e226">
+        <source>Over the limit of visible badges.</source>
+        <target>Ponad limit widocznych etykiet.</target>
+      </trans-unit>
+      <trans-unit id="ib-d9bc995c16fe">
+        <source>Not shown on desktop (rule settings).</source>
+        <target>Niewyświetlana na desktopie (ustawienia reguły).</target>
+      </trans-unit>
+      <trans-unit id="ib-efc391be8b32">
+        <source>Hidden on desktop (limit).</source>
+        <target>Ukryta na desktopie (limit).</target>
+      </trans-unit>
+      <trans-unit id="ib-928c9364fb66">
+        <source>Not shown on mobile (rule settings).</source>
+        <target>Niewyświetlana na mobile (ustawienia reguły).</target>
+      </trans-unit>
+      <trans-unit id="ib-218bd4cd43e5">
+        <source>Hidden on mobile (limit).</source>
+        <target>Ukryta na mobile (limit).</target>
+      </trans-unit>
+      <trans-unit id="ib-e4000a1cbe88">
+        <source>Product not found.</source>
+        <target>Nie znaleziono produktu.</target>
+      </trans-unit>
+      <trans-unit id="ib-a1921ede72e1">
+        <source>Shown</source>
+        <target>Wyświetlona</target>
+      </trans-unit>
+      <trans-unit id="ib-d9c8f187972e">
+        <source>Skipped</source>
+        <target>Pominięta</target>
+      </trans-unit>
+      <trans-unit id="ib-b4ac8a485908">
+        <source>Over the limit</source>
+        <target>Ponad limit</target>
+      </trans-unit>
+      <trans-unit id="ib-59329bb7c030">
+        <source>Product ID or reference</source>
+        <target>ID lub indeks produktu</target>
+      </trans-unit>
+      <trans-unit id="ib-4994a8ffeba4">
+        <source>Language</source>
+        <target>Język</target>
+      </trans-unit>
+      <trans-unit id="ib-498f79c4c5bb">
+        <source>Show</source>
+        <target>Pokaż</target>
+      </trans-unit>
+      <trans-unit id="ib-4c666f7a2209">
+        <source>Several products have this reference</source>
+        <target>Ten indeks ma kilka produktów</target>
+      </trans-unit>
+      <trans-unit id="ib-f57573f74090">
+        <source>The product is inactive: it gets no badges on the front office. The evaluation below is shown for information.</source>
+        <target>Produkt jest nieaktywny: na froncie nie dostaje etykiet. Poniższa ocena ma charakter informacyjny.</target>
+      </trans-unit>
+      <trans-unit id="ib-a17f5bc22553">
+        <source>Default category</source>
+        <target>Kategoria domyślna</target>
+      </trans-unit>
+      <trans-unit id="ib-abe4c1e65a28">
+        <source>Assigned categories</source>
+        <target>Przypisane kategorie</target>
+      </trans-unit>
+      <trans-unit id="ib-8f47611d1f5a">
+        <source>Base price (tax excl.)</source>
+        <target>Cena bazowa (netto)</target>
+      </trans-unit>
+      <trans-unit id="ib-98f770b0af18">
+        <source>Features</source>
+        <target>Cechy</target>
+      </trans-unit>
+      <trans-unit id="ib-ff5627f178b4">
+        <source>Badges</source>
+        <target>Etykiety</target>
+      </trans-unit>
+      <trans-unit id="ib-0fe2a13eb99a">
+        <source>mobile only</source>
+        <target>tylko mobile</target>
+      </trans-unit>
+      <trans-unit id="ib-5a8fca58c478">
+        <source>desktop only</source>
+        <target>tylko desktop</target>
+      </trans-unit>
+      <trans-unit id="ib-ab7a485ebe75">
+        <source>Rule</source>
+        <target>Reguła</target>
+      </trans-unit>
+      <trans-unit id="ib-87a1d48ee4ac">
+        <source>Badge text</source>
+        <target>Tekst etykiety</target>
+      </trans-unit>
+      <trans-unit id="ib-fffcb4d1e12c">
+        <source>Reason</source>
+        <target>Powód</target>
+      </trans-unit>
+      <trans-unit id="ib-142efdc146e5">
+        <source>Missing translation, default language used.</source>
+        <target>Brak tłumaczenia, użyto języka domyślnego.</target>
+      </trans-unit>
+      <trans-unit id="ib-0ebd7df4b5b8">
+        <source>There are no rules yet.</source>
+        <target>Nie ma jeszcze żadnych reguł.</target>
+      </trans-unit>
+      <trans-unit id="ib-9ef6eb60d5bf">
+        <source>Duplicate badge</source>
+        <target>Duplikat</target>
+      </trans-unit>
+      <trans-unit id="ib-52e24e2b4594">
+        <source>Add new style</source>
+        <target>Dodaj styl</target>
+      </trans-unit>
+      <trans-unit id="ib-368d9ac76af0">
+        <source>Background color</source>
+        <target>Kolor tła</target>
+      </trans-unit>
+      <trans-unit id="ib-80e69d8c2772">
+        <source>Badge style</source>
+        <target>Styl etykiety</target>
+      </trans-unit>
+      <trans-unit id="ib-b6bc6234dd2b">
+        <source>Border radius</source>
+        <target>Zaokrąglenie</target>
+      </trans-unit>
+      <trans-unit id="ib-a78a7793e22f">
+        <source>Delete selected styles? Rules using them will use the base style.</source>
+        <target>Usunąć zaznaczone style? Reguły, które ich używają, przejdą na styl bazowy.</target>
+      </trans-unit>
+      <trans-unit id="ib-957ef8096068">
+        <source>Font size (desktop)</source>
+        <target>Wielkość czcionki (desktop)</target>
+      </trans-unit>
+      <trans-unit id="ib-553ffea3a874">
+        <source>Font size (mobile)</source>
+        <target>Wielkość czcionki (mobile)</target>
+      </trans-unit>
+      <trans-unit id="ib-a47c4f19993b">
+        <source>Font weight</source>
+        <target>Grubość czcionki</target>
+      </trans-unit>
+      <trans-unit id="ib-7211ef139dfe">
+        <source>Horizontal padding (desktop)</source>
+        <target>Odstęp poziomy (desktop)</target>
+      </trans-unit>
+      <trans-unit id="ib-931e27f416d7">
+        <source>Horizontal padding (mobile)</source>
+        <target>Odstęp poziomy (mobile)</target>
+      </trans-unit>
+      <trans-unit id="ib-367c621a1968">
+        <source>Low contrast between text and background (below 4.5:1). The badge may be hard to read.</source>
+        <target>Niski kontrast tekstu i tła (poniżej 4,5:1). Etykieta może być słabo czytelna.</target>
+      </trans-unit>
+      <trans-unit id="ib-ba7c298bbee7">
+        <source>Sample badge</source>
+        <target>Przykładowa etykieta</target>
+      </trans-unit>
+      <trans-unit id="ib-77aa9bd851aa">
+        <source>Space above the badge, between flags.</source>
+        <target>Odstęp nad etykietą, między flagami.</target>
+      </trans-unit>
+      <trans-unit id="ib-5f111ae4c490">
+        <source>Text color</source>
+        <target>Kolor tekstu</target>
+      </trans-unit>
+      <trans-unit id="ib-b4c20ed720fa">
+        <source>The directory %dir% is not writable: styles cannot be applied on the front office.</source>
+        <target>Katalog %dir% nie jest zapisywalny: style nie zostaną zastosowane na froncie.</target>
+      </trans-unit>
+      <trans-unit id="ib-c3442bddb473">
+        <source>Top margin (desktop)</source>
+        <target>Margines górny (desktop)</target>
+      </trans-unit>
+      <trans-unit id="ib-12f8caa5c577">
+        <source>Top margin (mobile)</source>
+        <target>Margines górny (mobile)</target>
+      </trans-unit>
+      <trans-unit id="ib-621e7b8ece62">
+        <source>Uppercase</source>
+        <target>Wielkie litery</target>
+      </trans-unit>
+      <trans-unit id="ib-db80f4d5cb07">
+        <source>Vertical padding (desktop)</source>
+        <target>Odstęp pionowy (desktop)</target>
+      </trans-unit>
+      <trans-unit id="ib-a8c9cb9cf9f9">
+        <source>Vertical padding (mobile)</source>
+        <target>Odstęp pionowy (mobile)</target>
+      </trans-unit>
+      <trans-unit id="ib-24cd604037a0">
+        <source>Badges with the base style use the flag style of the shop theme; here they are shown in grey.</source>
+        <target>Etykiety ze stylem bazowym mają wygląd flag z motywu sklepu; tutaj są pokazane na szaro.</target>
+      </trans-unit>
+      <trans-unit id="ib-0b8dd1bd4e28">
+        <source>Adds an HTML comment with the number of module queries and engine time at the end of the page. Shown only to IP addresses listed in the maintenance settings.</source>
+        <target>Dodaje na końcu strony komentarz HTML z liczbą zapytań modułu i czasem silnika. Widoczny tylko dla adresów IP z ustawień przerwy technicznej.</target>
+      </trans-unit>
+      <trans-unit id="ib-ac927e7cc61c">
+        <source>Imported: %rules% rules, %styles% styles.</source>
+        <target>Zaimportowano: reguły: %rules%, style: %styles%.</target>
+      </trans-unit>
+      <trans-unit id="ib-635c8dcb5a9c">
+        <source>Matching products</source>
+        <target>Dopasowane produkty</target>
+      </trans-unit>
+      <trans-unit id="ib-0612c849edd4">
+        <source>Rule "%name%" was imported as inactive: %errors%</source>
+        <target>Reguła „%name%” została zaimportowana jako nieaktywna: %errors%</target>
+      </trans-unit>
+      <trans-unit id="ib-b2bde6c4385f">
+        <source>Rule "%name%" was not imported: %errors%</source>
+        <target>Reguła „%name%” nie została zaimportowana: %errors%</target>
+      </trans-unit>
+      <trans-unit id="ib-abe7894d41d4">
+        <source>Rule not found.</source>
+        <target>Nie znaleziono reguły.</target>
+      </trans-unit>
+      <trans-unit id="ib-8824283257e0">
+        <source>Select a JSON file exported from this module.</source>
+        <target>Wybierz plik JSON wyeksportowany z tego modułu.</target>
+      </trans-unit>
+      <trans-unit id="ib-73eda4b50834">
+        <source>Style "%name%" was not imported: %errors%</source>
+        <target>Styl „%name%” nie został zaimportowany: %errors%</target>
+      </trans-unit>
+      <trans-unit id="ib-0b72ba9e1688">
+        <source>The file is not an export of this module.</source>
+        <target>Plik nie jest eksportem tego modułu.</target>
+      </trans-unit>
+      <trans-unit id="ib-0c46cf96f77a">
+        <source>The file is not valid JSON.</source>
+        <target>Plik nie jest poprawnym JSON-em.</target>
+      </trans-unit>
+      <trans-unit id="ib-40f9f62de5a8">
+        <source>The file is too large.</source>
+        <target>Plik jest za duży.</target>
+      </trans-unit>
+      <trans-unit id="ib-30ec3cab1452">
+        <source>You do not have permission to export the configuration.</source>
+        <target>Nie masz uprawnień do eksportu konfiguracji.</target>
+      </trans-unit>
+      <trans-unit id="ib-7389a69c9d5d">
+        <source>You do not have permission to import the configuration.</source>
+        <target>Nie masz uprawnień do importu konfiguracji.</target>
+      </trans-unit>
+      <trans-unit id="ib-eb093ff65097">
+        <source>Active products in the shop</source>
+        <target>Aktywne produkty w sklepie</target>
+      </trans-unit>
+      <trans-unit id="ib-ef0a028bb30a">
+        <source>Add to existing rules (styles with the same name are reused)</source>
+        <target>Dodaj do istniejących reguł (style o tej samej nazwie są używane ponownie)</target>
+      </trans-unit>
+      <trans-unit id="ib-46cf59859419">
+        <source>All current rules and styles will be deleted. Continue?</source>
+        <target>Wszystkie obecne reguły i style zostaną usunięte. Kontynuować?</target>
+      </trans-unit>
+      <trans-unit id="ib-0d63054c3494">
+        <source>Categories, manufacturers, suppliers, features and products are matched by ID, so import into the same shop or its copy. Rules with missing objects or invalid data are imported as inactive.</source>
+        <target>Kategorie, producenci, dostawcy, cechy i produkty są dopasowywane po ID, więc importuj do tego samego sklepu albo jego kopii. Reguły z brakującymi obiektami lub błędnymi danymi są importowane jako nieaktywne.</target>
+      </trans-unit>
+      <trans-unit id="ib-ed39997f1d2b">
+        <source>Excluded by "Always exclude"</source>
+        <target>Wykluczone przez „Zawsze wykluczaj”</target>
+      </trans-unit>
+      <trans-unit id="ib-f3106a8129f8">
+        <source>Export and import</source>
+        <target>Eksport i import</target>
+      </trans-unit>
+      <trans-unit id="ib-1a7c21d1e589">
+        <source>Export configuration</source>
+        <target>Eksportuj konfigurację</target>
+      </trans-unit>
+      <trans-unit id="ib-acd5e8d82571">
+        <source>Export saves all rules (with texts and criteria) and styles to a JSON file.</source>
+        <target>Eksport zapisuje wszystkie reguły (z tekstami i kryteriami) oraz style do pliku JSON.</target>
+      </trans-unit>
+      <trans-unit id="ib-72d6d7a18858">
+        <source>Import</source>
+        <target>Importuj</target>
+      </trans-unit>
+      <trans-unit id="ib-a6c9e3a7671c">
+        <source>JSON file</source>
+        <target>Plik JSON</target>
+      </trans-unit>
+      <trans-unit id="ib-4a085c882602">
+        <source>Matching criteria, but empty badge text</source>
+        <target>Pasują do kryteriów, ale tekst etykiety jest pusty</target>
+      </trans-unit>
+      <trans-unit id="ib-33a210084ef0">
+        <source>Matching criteria, but no visible feature value</source>
+        <target>Pasują do kryteriów, ale nie mają widocznej wartości cechy</target>
+      </trans-unit>
+      <trans-unit id="ib-5dc422bc810a">
+        <source>No group matches</source>
+        <target>Nie pasuje żadna grupa</target>
+      </trans-unit>
+      <trans-unit id="ib-86a3eb3c65fb">
+        <source>Qualified (get the badge)</source>
+        <target>Zakwalifikowane (dostają etykietę)</target>
+      </trans-unit>
+      <trans-unit id="ib-098a36ebcde9">
+        <source>Replace all rules and styles</source>
+        <target>Zastąp wszystkie reguły i style</target>
+      </trans-unit>
+      <trans-unit id="ib-c62067d5ef5b">
+        <source>Rule matches</source>
+        <target>Dopasowania reguły</target>
+      </trans-unit>
+      <trans-unit id="ib-23b42893190c">
+        <source>Sample of excluded products</source>
+        <target>Próbka wykluczonych produktów</target>
+      </trans-unit>
+      <trans-unit id="ib-fde7e1b2ba89">
+        <source>Sample of qualified products</source>
+        <target>Próbka zakwalifikowanych produktów</target>
+      </trans-unit>
+      <trans-unit id="ib-19d3894f53ce">
+        <source>inactive</source>
+        <target>nieaktywna</target>
+      </trans-unit>
+      <trans-unit id="ib-893210d67681">
+        <source>No badges for this product.</source>
+        <target>Brak etykiet dla tego produktu.</target>
+      </trans-unit>
+      <trans-unit id="ib-e9946a93080a">
+        <source>Counted for active products with the same logic as on the front office. Validity dates, duplicates and limits are not taken into account.</source>
+        <target>Liczone dla aktywnych produktów tą samą logiką co na froncie. Daty obowiązywania, duplikaty i limity nie są brane pod uwagę.</target>
+      </trans-unit>
+      <trans-unit id="ib-c13c4742917b">
+        <source>Border width</source>
+        <target>Grubość obramowania</target>
+      </trans-unit>
+      <trans-unit id="ib-1931252001d7">
+        <source>0 = no border.</source>
+        <target>0 = bez obramowania.</target>
+      </trans-unit>
+      <trans-unit id="ib-d8404c62148d">
+        <source>Border color</source>
+        <target>Kolor obramowania</target>
+      </trans-unit>
+      <trans-unit id="ib-95adc12ae3d4">
+        <source>Border width must be between 0 and 10 px.</source>
+        <target>Grubość obramowania musi mieścić się w zakresie 0–10 px.</target>
+      </trans-unit>
+      <trans-unit id="ib-0a641a9a6b6b">
+        <source>The border color must be in #RRGGBB format.</source>
+        <target>Kolor obramowania musi mieć format #RRGGBB.</target>
+      </trans-unit>
+      <trans-unit id="ib-61d2c8d59797">
+        <source>Allowed image formats: JPG, PNG, SVG.</source>
+        <target>Dozwolone formaty obrazka: JPG, PNG, SVG.</target>
+      </trans-unit>
+      <trans-unit id="ib-a1c1ed62d649">
+        <source>Badge text; for an image badge the alternative text (optional). Missing translations fall back to the default language.</source>
+        <target>Tekst etykiety; dla obrazka tekst alternatywny (opcjonalny). Brakujące tłumaczenia zastępuje język domyślny.</target>
+      </trans-unit>
+      <trans-unit id="ib-be53a0541a6d">
+        <source>Image</source>
+        <target>Obrazek</target>
+      </trans-unit>
+      <trans-unit id="ib-d303186440e4">
+        <source>Image height (desktop)</source>
+        <target>Wysokość obrazka (desktop)</target>
+      </trans-unit>
+      <trans-unit id="ib-9db6e01010ab">
+        <source>Image height (mobile)</source>
+        <target>Wysokość obrazka (mobile)</target>
+      </trans-unit>
+      <trans-unit id="ib-780087498a9c">
+        <source>JPG, PNG or SVG, maximum 1 MB. Uploading a new file replaces the current image.</source>
+        <target>JPG, PNG albo SVG, maksymalnie 1 MB. Wgranie nowego pliku zastępuje obecny obrazek.</target>
+      </trans-unit>
+      <trans-unit id="ib-0b2eb4a63708">
+        <source>The SVG file is invalid or contains unsafe content.</source>
+        <target>Plik SVG jest nieprawidłowy albo zawiera niebezpieczną treść.</target>
+      </trans-unit>
+      <trans-unit id="ib-8d2fc69f0d6b">
+        <source>The file is not a valid image.</source>
+        <target>Plik nie jest prawidłowym obrazkiem.</target>
+      </trans-unit>
+      <trans-unit id="ib-6105a39f5b8b">
+        <source>The image could not be saved in %dir%. The rule has been deactivated.</source>
+        <target>Nie udało się zapisać obrazka w %dir%. Reguła została wyłączona.</target>
+      </trans-unit>
+      <trans-unit id="ib-5820d5d04f96">
+        <source>The image could not be uploaded.</source>
+        <target>Nie udało się wgrać obrazka.</target>
+      </trans-unit>
+      <trans-unit id="ib-1a2c13cba8d7">
+        <source>The image height must be between %min% and %max% px.</source>
+        <target>Wysokość obrazka musi mieścić się w zakresie %min%–%max% px.</target>
+      </trans-unit>
+      <trans-unit id="ib-5b883f1eb108">
+        <source>The image is too large (maximum 1 MB).</source>
+        <target>Obrazek jest za duży (maksymalnie 1 MB).</target>
+      </trans-unit>
+      <trans-unit id="ib-9e1d5dc93a57">
+        <source>The width follows the image proportions.</source>
+        <target>Szerokość wynika z proporcji obrazka.</target>
+      </trans-unit>
+      <trans-unit id="ib-e9642ef0fc44">
+        <source>Upload an image for an image badge.</source>
+        <target>Wgraj obrazek dla etykiety z obrazkiem.</target>
+      </trans-unit>
+      <trans-unit id="ib-143b24b53211">
+        <source>No image uploaded.</source>
+        <target>Nie wgrano obrazka.</target>
+      </trans-unit>
+      <trans-unit id="ib-ec136b444eed">
+        <source>Supplier</source>
+        <target>Dostawca</target>
+      </trans-unit>
+      <trans-unit id="ib-1814d65a7602">
+        <source>Suppliers</source>
+        <target>Dostawcy</target>
+      </trans-unit>
+      <trans-unit id="ib-128ad007d180">
+        <source>Select at least one supplier.</source>
+        <target>Wybierz co najmniej jednego dostawcę.</target>
+      </trans-unit>
+      <trans-unit id="ib-97dd9b9f3b53">
+        <source>Suppliers not found: %list%.</source>
+        <target>Nie znaleziono dostawców: %list%.</target>
+      </trans-unit>
+      <trans-unit id="ib-96fd2b796454">
+        <source>Background opacity</source>
+        <target>Krycie tła</target>
+      </trans-unit>
+      <trans-unit id="ib-564cb53c9e9b">
+        <source>100% = solid background, 0% = transparent background (only the text and the border are visible).</source>
+        <target>100% = pełne tło, 0% = tło przezroczyste (widać tylko tekst i obramowanie).</target>
+      </trans-unit>
+      <trans-unit id="ib-75decba7ce45">
+        <source>Background opacity must be between 0 and 100%.</source>
+        <target>Krycie tła musi mieścić się w zakresie od 0 do 100%.</target>
+      </trans-unit>
+      <trans-unit id="ib-312b8dbeb97b">
+        <source>With a translucent background the readability also depends on the product image under the badge. Contrast is checked against a white background.</source>
+        <target>Przy półprzezroczystym tle czytelność zależy też od zdjęcia produktu pod etykietą. Kontrast jest sprawdzany względem białego tła.</target>
+      </trans-unit>
+      <trans-unit id="ib-104d9898c048">
+        <source>Discount</source>
+        <target>Obniżka</target>
+      </trans-unit>
+      <trans-unit id="ib-7b593034cd1f">
+        <source>Invalid discount value.</source>
+        <target>Nieprawidłowa wartość obniżki.</target>
+      </trans-unit>
+      <trans-unit id="ib-96161f5eca27">
+        <source>Discount limits must be between 0 and 100%.</source>
+        <target>Granice obniżki muszą mieścić się w zakresie od 0 do 100%.</target>
+      </trans-unit>
+      <trans-unit id="ib-9a026dee32c3">
+        <source>The minimum discount cannot be greater than the maximum discount.</source>
+        <target>Minimalna obniżka nie może być większa niż maksymalna.</target>
+      </trans-unit>
+      <trans-unit id="ib-4c60e81ba8c2">
+        <source>The product has no discount for the [discount] placeholder.</source>
+        <target>Produkt nie ma obniżki dla znacznika [discount].</target>
+      </trans-unit>
+      <trans-unit id="ib-cc396f577a09">
+        <source>Hides system flags: %flags%.</source>
+        <target>Ukrywa flagi systemowe: %flags%.</target>
+      </trans-unit>
+      <trans-unit id="ib-a5e9b78aeae7">
+        <source>Unknown system flag.</source>
+        <target>Nieznana flaga systemowa.</target>
+      </trans-unit>
+      <trans-unit id="ib-a7a20a5d6eb2">
+        <source>[discount] is replaced with the product discount in whole percent (e.g. "SALE -[discount]%"); without a discount the badge is not shown.</source>
+        <target>[discount] zostanie zastąpione obniżką produktu w pełnych procentach (np. „OKAZJA -[discount]%”); bez obniżki etykieta się nie pokaże.</target>
+      </trans-unit>
+      <trans-unit id="ib-84f9018e04d6">
+        <source>Hide system flags</source>
+        <target>Ukryj flagi systemowe</target>
+      </trans-unit>
+      <trans-unit id="ib-2bdfee4e3b79">
+        <source>Discount (e.g. "-20%")</source>
+        <target>Rabat (np. „-20%”)</target>
+      </trans-unit>
+      <trans-unit id="ib-588907ab2d49">
+        <source>On sale</source>
+        <target>Promocja</target>
+      </trans-unit>
+      <trans-unit id="ib-03c2e7e41ffc">
+        <source>New</source>
+        <target>Nowość</target>
+      </trans-unit>
+      <trans-unit id="ib-4492081ca02b">
+        <source>Pack</source>
+        <target>Zestaw</target>
+      </trans-unit>
+      <trans-unit id="ib-03de921a8ea8">
+        <source>Online only</source>
+        <target>Tylko online</target>
+      </trans-unit>
+      <trans-unit id="ib-b55197a49e8c">
+        <source>Out of stock</source>
+        <target>Brak w magazynie</target>
+      </trans-unit>
+      <trans-unit id="ib-8d30f17f580f">
+        <source>Selected PrestaShop flags are removed from products where this badge is shown (on at least one device). Where the badge is not shown, they stay.</source>
+        <target>Zaznaczone flagi PrestaShop są usuwane z produktów, na których ta etykieta jest widoczna (choć na jednym urządzeniu). Tam, gdzie etykiety nie ma, flagi zostają.</target>
+      </trans-unit>
+      <trans-unit id="ib-659e9713bca4">
+        <source>Discount in % from specific prices, as in the PrestaShop discount flag. Leave both fields empty for any discount. On the front office it follows the visitor (group, currency, combination); the preview and matching products use the default context.</source>
+        <target>Obniżka w % z cen specyficznych, tak jak we fladze rabatu PrestaShop. Zostaw oba pola puste, aby objąć dowolną obniżkę. Na froncie liczona dla odwiedzającego (grupa, waluta, kombinacja); podgląd i lista pasujących produktów używają kontekstu domyślnego.</target>
+      </trans-unit>
+      <trans-unit id="ib-664cb004a46a">
+        <source>Default context: visitor group, default currency and country, default combination.</source>
+        <target>Kontekst domyślny: grupa gości, domyślna waluta i kraj, domyślna kombinacja.</target>
+      </trans-unit>
+      <trans-unit id="ib-license-tab">
+        <source>Badge license</source>
+        <target>Licencja etykiet</target>
+      </trans-unit>
+      <trans-unit id="ib-license">
+        <source>License</source>
+        <target>Licencja</target>
+      </trans-unit>
+      <trans-unit id="ib-license-header">
+        <source>%name% · version %version% · Full version · author InfinityWeb.pl</source>
+        <target>%name% · wersja %version% · Wersja pełna · autor InfinityWeb.pl</target>
+      </trans-unit>
+      <trans-unit id="ib-license-intro-1">
+        <source>The module works fully, without technical limitations, and will never switch itself off.</source>
+        <target>Moduł działa w pełni, bez ograniczeń technicznych, i nigdy się nie wyłączy.</target>
+      </trans-unit>
+      <trans-unit id="ib-license-intro-2">
+        <source>Using the full version in a shop requires a license for its domain.</source>
+        <target>Korzystanie z wersji pełnej w sklepie wymaga licencji na jego domenę.</target>
+      </trans-unit>
+      <trans-unit id="ib-license-intro-3">
+        <source>The module does not enforce this: it only checks whether there is a license and shows it below.</source>
+        <target>Moduł tego nie wymusza: sprawdza tylko, czy licencja jest, i pokazuje to poniżej.</target>
+      </trans-unit>
+      <trans-unit id="ib-license-key">
+        <source>License key</source>
+        <target>Klucz licencji</target>
+      </trans-unit>
+      <trans-unit id="ib-license-key-help">
+        <source>Paste the key you received by email. Several shops (multistore): each key on a separate line.</source>
+        <target>Wklej klucz otrzymany mailem. Kilka sklepów (multistore) — każdy klucz w osobnym wierszu.</target>
+      </trans-unit>
+      <trans-unit id="ib-back-to-list">
+        <source>Back to list</source>
+        <target>Wróć do listy</target>
+      </trans-unit>
+      <trans-unit id="ib-license-more-title">
+        <source>More PrestaShop modules from InfinityWeb.pl</source>
+        <target>Więcej modułów PrestaShop od InfinityWeb.pl</target>
+      </trans-unit>
+      <trans-unit id="ib-license-more-github">
+        <source>Demos of other modules are available on GitHub: %url%</source>
+        <target>Dema innych modułów znajdziesz na GitHubie: %url%</target>
+      </trans-unit>
+      <trans-unit id="ib-license-more-site">
+        <source>Descriptions, usage examples and contact: %url%</source>
+        <target>Opisy, przykłady użycia i kontakt: %url%</target>
+      </trans-unit>
+      <trans-unit id="ib-license-more-github-button">
+        <source>Modules on GitHub</source>
+        <target>Moduły na GitHubie</target>
+      </trans-unit>
+      <trans-unit id="ib-license-footer">
+        <source>The module only checks the signature of the key pasted in this tab, without connecting to the author. It sends no data and blocks nothing.</source>
+        <target>Moduł sprawdza tylko podpis klucza wklejonego w tej zakładce, bez łączenia się z autorem. Nie wysyła żadnych danych i niczego nie blokuje.</target>
+      </trans-unit>
+      <trans-unit id="ib-license-valid">
+        <source>License for %domain%</source>
+        <target>Licencja dla %domain%</target>
+      </trans-unit>
+      <trans-unit id="ib-license-valid-text">
+        <source>— issued %issued%. Thank you!</source>
+        <target>— wystawiona %issued%. Dziękujemy!</target>
+      </trans-unit>
+      <trans-unit id="ib-license-none">
+        <source>No license for %domain%.</source>
+        <target>Brak licencji dla %domain%.</target>
+      </trans-unit>
+      <trans-unit id="ib-license-none-text">
+        <source>Do you use the module in this shop? Buy a license: it is a condition for using the full version, and it also supports the development of the module and further updates. Write to %email%, give the module name (%name%) and the domain (%domain%), and we will arrange the rest in our reply.</source>
+        <target>Korzystasz z modułu w tym sklepie? Kup licencję: to warunek korzystania z wersji pełnej, a przy okazji wspierasz rozwój modułu i dalsze aktualizacje. Napisz na %email%, podaj nazwę modułu (%name%) i domenę (%domain%), a resztę ustalimy w odpowiedzi.</target>
+      </trans-unit>
+      <trans-unit id="ib-license-other-domain">
+        <source>The pasted key is for the domain %key_domain%. Has the shop domain changed? Write to %email% and we will issue a new key.</source>
+        <target>Wklejony klucz jest dla domeny %key_domain%. Domena sklepu się zmieniła? Napisz na %email%, wystawimy nowy klucz.</target>
+      </trans-unit>
+      <trans-unit id="ib-license-other-module">
+        <source>The pasted key is for another module (%key_module%).</source>
+        <target>Wklejony klucz jest dla innego modułu (%key_module%).</target>
+      </trans-unit>
+      <trans-unit id="ib-license-invalid">
+        <source>The key is invalid.</source>
+        <target>Klucz jest nieprawidłowy.</target>
+      </trans-unit>
+      <trans-unit id="ib-license-invalid-text">
+        <source>Check that you pasted it in full. If the problem persists, write to %email%.</source>
+        <target>Sprawdź, czy wkleiłeś go w całości. W razie problemu napisz na %email%.</target>
+      </trans-unit>
+      <trans-unit id="ib-license-unsupported">
+        <source>The license cannot be checked:</source>
+        <target>Nie można sprawdzić licencji:</target>
+      </trans-unit>
+      <trans-unit id="ib-license-unsupported-text">
+        <source>the server does not have the PHP sodium extension. The module works normally.</source>
+        <target>serwer nie ma rozszerzenia PHP sodium. Moduł działa normalnie.</target>
+      </trans-unit>
+      <trans-unit id="ib-license-test">
+        <source>Test environment (%domain%).</source>
+        <target>Środowisko testowe (%domain%).</target>
+      </trans-unit>
+      <trans-unit id="ib-license-test-text">
+        <source>A license is not needed.</source>
+        <target>Licencja nie jest potrzebna.</target>
+      </trans-unit>
+      <trans-unit id="ib-license-notice">
+        <source>Unregistered version: no license for %domains%.</source>
+        <target>Wersja niezarejestrowana: brak licencji dla %domains%.</target>
+      </trans-unit>
+      <trans-unit id="ib-license-save-denied">
+        <source>You do not have permission to save the license key.</source>
+        <target>Brak uprawnień do zapisu klucza licencji.</target>
+      </trans-unit>
+      <trans-unit id="ib-license-save-error">
+        <source>Could not save the license key.</source>
+        <target>Nie udało się zapisać klucza licencji.</target>
+      </trans-unit>
+      <trans-unit id="ib-invalid-token">
+        <source>Invalid security token.</source>
+        <target>Nieprawidłowy token bezpieczeństwa.</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-display-name">
+        <source>Product badges (demo)</source>
+        <target>Etykiety produktów (demo)</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-description">
+        <source>Demo version: product labels from feature values and static texts, displayed as product flags. Criteria, image badges and more in the full version.</source>
+        <target>Wersja demo: etykiety produktów z wartości cech i tekstów stałych, wyświetlane jako flagi produktu. Kryteria, etykiety-obrazki i więcej w pełnej wersji.</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-feature-criteria">
+        <source>criteria: groups of categories (with subcategories), manufacturers, suppliers, features, price, discount and products, with "Always exclude"</source>
+        <target>kryteria: grupy kategorii (z podkategoriami), producentów, dostawców, cech, ceny, obniżki i produktów, z „Zawsze wykluczaj”</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-feature-image">
+        <source>image badges (JPG, PNG, SVG)</source>
+        <target>etykiety-obrazki (JPG, PNG, SVG)</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-feature-discount">
+        <source>[discount] placeholder, e.g. "SALE -[discount]%"</source>
+        <target>znacznik [discount], np. „OKAZJA -[discount]%”</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-feature-text-modes">
+        <source>feature name or custom text instead of the value, hidden values (e.g. "No")</source>
+        <target>nazwa cechy albo własny tekst zamiast wartości, ukrywane wartości (np. „Nie”)</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-feature-hide-flags">
+        <source>hiding PrestaShop flags (e.g. "-20%") where the badge is shown</source>
+        <target>ukrywanie flag PrestaShop (np. „-20%”) tam, gdzie jest etykieta</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-feature-preview">
+        <source>preview on a product with the reason of each decision, and matching products of a rule</source>
+        <target>podgląd na produkcie z powodem każdej decyzji i produkty pasujące do reguły</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-feature-transfer">
+        <source>export and import of the configuration, debug mode</source>
+        <target>eksport i import konfiguracji, tryb debug</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-notice-lead">
+        <source>Demo version.</source>
+        <target>Wersja demo.</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-notice">
+        <source>Badges from feature values and static texts work on all products. Criteria, image badges, [discount], the preview and the other options marked "full version" work in the full version: %email%.</source>
+        <target>Etykiety z wartości cech i teksty stałe działają na wszystkich produktach. Kryteria, etykiety-obrazki, [discount], podgląd i pozostałe opcje oznaczone „pełna wersja” działają w pełnej wersji: %email%.</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-full-version-link">
+        <source>Full version</source>
+        <target>Pełna wersja</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-license-header">
+        <source>%name% · version %version% · Demo version · author InfinityWeb.pl</source>
+        <target>%name% · wersja %version% · Wersja demo · autor InfinityWeb.pl</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-license-lead">
+        <source>This is the demo version.</source>
+        <target>To jest wersja demo.</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-license-intro">
+        <source>Some of the module features work in it. The others are visible in the back office and in the code, but work only in the full version.</source>
+        <target>Działa w niej część funkcji modułu. Pozostałe widać w panelu i w kodzie, ale działają tylko w wersji pełnej.</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-license-full">
+        <source>Full version:</source>
+        <target>Wersja pełna:</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-license-contact">
+        <source>Want the full version? Write to %email% or visit %url%</source>
+        <target>Chcesz wersję pełną? Napisz na %email% albo zajrzyj na %url%</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-license-footer">
+        <source>The demo version does not check the license and sends no data to the author.</source>
+        <target>Wersja demo nie sprawdza licencji i nie wysyła żadnych danych do autora.</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-preview">
+        <source>Demo version: the preview on a product and matching products of a rule work in the full version.</source>
+        <target>Wersja demo: podgląd na produkcie i produkty pasujące do reguły działają w pełnej wersji.</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-full-version-sentence">
+        <source>Full version.</source>
+        <target>Pełna wersja.</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-transfer">
+        <source>Demo version: export and import of the configuration work in the full version.</source>
+        <target>Wersja demo: eksport i import konfiguracji działają w pełnej wersji.</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-full-version-suffix">
+        <source>full version</source>
+        <target>pełna wersja</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-discount">
+        <source>In the demo version a badge with [discount] is not shown.</source>
+        <target>W wersji demo etykieta z [discount] się nie pokazuje.</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-criteria">
+        <source>Demo version: the badge is shown on all products. For a feature badge, only on products that have a value of the feature.</source>
+        <target>Wersja demo: etykieta pokazuje się na wszystkich produktach, a etykieta z cechy tylko na produktach, które mają wartość tej cechy.</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-criteria-intro">
+        <source>In the full version you choose which products get the badge:</source>
+        <target>W pełnej wersji wybierasz, które produkty dostają etykietę:</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-criteria-groups">
+        <source>groups of criteria: the badge is shown when any group matches, and within a group all criteria must match;</source>
+        <target>grupy kryteriów: etykieta pokazuje się, gdy pasuje dowolna grupa, a w grupie muszą pasować wszystkie kryteria;</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-criteria-kinds">
+        <source>criteria: category (with subcategories), manufacturer, supplier, feature value, price, discount and product, each with "include" or "exclude";</source>
+        <target>kryteria: kategoria (z podkategoriami), producent, dostawca, wartość cechy, cena, obniżka i produkt, każde w trybie „uwzględnij” albo „wyklucz”;</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-criteria-exclude">
+        <source>"Always exclude": products matching any of these criteria never get the badge, whatever the groups.</source>
+        <target>„Zawsze wykluczaj”: produkty pasujące do któregokolwiek z tych kryteriów nigdy nie dostają etykiety, niezależnie od grup.</target>
+      </trans-unit>
+      <trans-unit id="ib-demo-criteria-example">
+        <source>Example: "Made in Poland" for the products of one manufacturer, but never in the "Light bulbs" category.</source>
+        <target>Przykład: „Made in Poland” na produktach jednego producenta, ale nigdy w kategorii „Żarówki”.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

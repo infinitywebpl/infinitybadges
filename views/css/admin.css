@@ -1,0 +1,276 @@
+/* Tab bar attached to the frame with the tab content. */
+.ib-tabs {
+  margin: 0;
+  border-bottom: 0;
+}
+
+.ib-tabs > li > a,
+.ib-tabs .nav-link {
+  margin-bottom: -1px;
+  position: relative;
+  z-index: 1;
+  line-height: 20px;
+}
+
+.ib-tabs > li.active > a,
+.ib-tabs .nav-link.active {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: #fff;
+}
+
+.ib-tab-body {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.ib-tab-body > .panel:last-child,
+.ib-tab-body > form:last-child .panel {
+  margin-bottom: 0;
+}
+
+/* Demo version notice above the tabs and the License tab. */
+.ib-demo-notice a {
+  margin-left: 4px;
+  font-weight: 600;
+}
+
+.ib-license-form {
+  margin-bottom: 20px;
+}
+
+.ib-conditions .ib-help {
+  color: #6c868e;
+  margin: 0 0 10px;
+}
+
+.ib-section {
+  border: 1px solid #dbe6e9;
+  border-radius: 4px;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  background: #fff;
+}
+
+.ib-section-exclusions {
+  border-color: #f0c5c5;
+  background: #fffafa;
+}
+
+.ib-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.ib-section-title {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.ib-or {
+  text-align: center;
+  font-weight: 700;
+  color: #25b9d7;
+  margin: -4px 0 8px;
+}
+
+.ib-and {
+  font-size: 11px;
+  font-weight: 700;
+  color: #6c868e;
+  margin: 2px 0 2px 4px;
+}
+
+.ib-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px;
+  border: 1px solid #eef2f3;
+  border-radius: 4px;
+  background: #fafbfc;
+}
+
+.ib-row.ib-has-error {
+  border-color: #e08f95;
+  background: #fff5f5;
+}
+
+.ib-row > select {
+  width: auto;
+  min-width: 140px;
+}
+
+.ib-row-values {
+  flex: 1 1 320px;
+  min-width: 260px;
+}
+
+.ib-row-errors {
+  flex-basis: 100%;
+  color: #c45c67;
+  font-size: 12px;
+}
+
+.ib-pick-summary {
+  font-size: 12px;
+  color: #363a41;
+  margin: 4px 0;
+  max-height: 54px;
+  overflow: auto;
+}
+
+.ib-pick-list {
+  max-height: 200px;
+  overflow: auto;
+  border: 1px solid #dbe6e9;
+  border-radius: 3px;
+  background: #fff;
+  padding: 4px 8px;
+}
+
+/* One item per line; selector specific enough to override the admin theme label styles. */
+.ib-conditions .ib-pick-list .ib-pick-item,
+.ib-conditions .ib-row-values .ib-pick-item {
+  display: block !important;
+  width: 100%;
+  float: none !important;
+  text-align: left !important;
+  font-weight: normal;
+  margin: 0;
+  padding: 2px 0;
+  cursor: pointer;
+}
+
+.ib-pick-more,
+.ib-hint {
+  font-size: 12px;
+  color: #6c868e;
+  margin-top: 4px;
+}
+
+.ib-price {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.ib-price input {
+  width: 120px;
+}
+
+.ib-actions {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.ib-image-preview {
+  max-height: 80px;
+  max-width: 240px;
+  margin-bottom: 8px;
+  background: repeating-conic-gradient(#eee 0% 25%, #fff 0% 50%) 50% / 16px 16px;
+}
+
+/* Preview */
+.ib-preview-form .form-group {
+  margin-right: 12px;
+}
+
+.ib-preview-form label {
+  margin-right: 6px;
+}
+
+/* Badge samples: theme-like defaults, overridden by the generated stylesheet (ib-style-N). */
+.ib-preview-flags {
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.ib-preview-flags .product-flag {
+  display: inline-block;
+  background: #7a7a7a;
+  color: #fff;
+  font-weight: 600;
+  padding: 4px 8px;
+  margin-right: 8px;
+}
+
+.ib-analysis {
+  max-width: 640px;
+}
+
+.ib-analysis td:last-child {
+  text-align: right;
+  width: 120px;
+}
+
+.ib-analysis-indent {
+  padding-left: 30px !important;
+  color: #6c868e;
+}
+
+/* Style form and list */
+.ib-style-sample {
+  display: inline-block;
+  line-height: 1.2;
+}
+
+.ib-style-live {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.ib-style-live-box {
+  min-width: 200px;
+  padding: 16px;
+  border: 1px dashed #bbcdd2;
+  border-radius: 4px;
+  background: #f4f8fb;
+}
+
+.ib-style-live-label {
+  font-size: 11px;
+  color: #6c868e;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.ib-contrast-warning,
+.ib-translucent-note {
+  flex-basis: 100%;
+  margin: 0;
+}
+
+/* Checkerboard under badge samples, so a translucent background is visible. */
+.ib-checker {
+  display: inline-block;
+  padding: 4px;
+  border-radius: 3px;
+  background-color: #fff;
+  background-image:
+    linear-gradient(45deg, #dfe5e8 25%, transparent 25%, transparent 75%, #dfe5e8 75%),
+    linear-gradient(45deg, #dfe5e8 25%, transparent 25%, transparent 75%, #dfe5e8 75%);
+  background-position: 0 0, 5px 5px;
+  background-size: 10px 10px;
+}
+
+.ib-product-data dt {
+  width: 200px;
+}
+
+.ib-product-data dd {
+  margin-left: 220px;
+}
